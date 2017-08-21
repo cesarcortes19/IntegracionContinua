@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.esa.entel</groupId>
     <artifactId>IntegracionWebApp</artifactId>
-    <packaging>ear</packaging>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>IntegracionWebApp Maven Webapp</name>
     <url>http://maven.apache.org</url>
@@ -17,14 +17,5 @@
     </dependencies>
     <build>
         <finalName>IntegracionWebApp</finalName>
-        <plugins>
-            <plugin>
-                <artifactId>maven-ear-plugin</artifactId>
-                <version>2.10.1</version>
-                <configuration>
-                    <!-- configuration elements goes here -->
-                </configuration>
-            </plugin>
-        </plugins>
     </build>
 </project>
